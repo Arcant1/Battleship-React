@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Card {
+  width: 60%;
+  height: 80%;
+  border-radius: 8px !important;
+  background-color: white;
+  overflow: hidden;
+}
+
+.ButtonStart {
+  flex: .5;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 30%;
+  margin-top: 1000px;
+}
+.ButtonGame {
+  flex: .2;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 30%;
+  margin-top: 1000px;
+}
+.ButtonEnd {
+  flex: .05;
+  margin-top: 50px !important; 
+}
+.StartGridItem {
+  flex: 1;
+  min-width: 0px !important;
+  border-radius: 0px !important;
+}
+.ShipSelector {
+  flex: 1;
+  min-width: 0px !important;
+  border-radius: 0px !important;
+  padding: 10px !important;
+}
+.ShipSelector span {
+  height: 100%;
+  width: 100%;
+}
+.PaperGrid {
+  height: 100%;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+.marginRight20 {
+  margin-right: 20px;
+}
+
+.New {
+  background-color: azure !important;
+}
+.Hit {
+  background-color: red !important;
+}
+.Destroy {
+  background-color: orange !important;
+}
+.Hide {
+  background-color: cornflowerblue !important;
+}
+.Miss {
+  background-color: #222 !important;
+}
+.Watter {
+  background-color: darkturquoise !important;
+}
